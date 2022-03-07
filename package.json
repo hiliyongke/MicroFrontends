@@ -8,7 +8,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "setup": "lerna bootstrap",
     "clean": "rm -rf node_modules/ && lerna clean -y",
     "start": "lerna run --stream --sort start",
     "build": "lerna run --stream --sort build",
